@@ -1,0 +1,9 @@
+Enter file contents hereshoppinglist=[]
+while True:
+    item = input("enter new item: ")
+    if len(item)==0:
+        break
+    else:
+        shoppinglist.append(item)
+        print(shoppinglist)
+print(shoppinglist)
