@@ -1,0 +1,11 @@
+Enter file contents herex=input("Give me first sentences")
+y=input("Give me second sentences")
+print (x,y)
+z=x+" "+y
+listofword=z.split()
+print(listofword)
+sortlist=sorted(listofword)
+print (sortlist)
+numofword=len(listofword)
+print(numofword)
+
